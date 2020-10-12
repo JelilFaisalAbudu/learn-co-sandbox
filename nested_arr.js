@@ -20,3 +20,5 @@ function find(array, criteriaFn) {
 }
 
 const numberCollections = [1, [2, [4, [5, [6]], 3]]];
+
+console.log(find(numberCollections, num => { num > 5 }));
