@@ -13,6 +13,7 @@ function find(array, criteriaFn) {
       }
     }
     
+<<<<<<< HEAD
     current = next.shift();
   }
   
@@ -22,3 +23,10 @@ function find(array, criteriaFn) {
 const numberCollections = [1, [2, [4, [5, [6]], 3]]];
 
 console.log(find(numberCollections, num => num > 5));
+=======
+    current = next.shift;
+  }
+  
+  return null;
+}
+>>>>>>> fe617404b4f45abafab53577e4269a5c3751591b
